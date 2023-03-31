@@ -1,4 +1,4 @@
-# {Kurztitel des gelösten Problems und der Lösung}
+# [ADR](./README.md) › {Kurztitel des gelösten Problems und der Lösung}
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ Gewählte Option: "{Titel der Option 1}", weil
 ### {Titel der Option 1}
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-{Beispiel | Beschreibung | Verweis auf weitere Informationen | ...}
+{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
 * Gut, denn {Argument a}
 * Gut, weil {Argument b}
@@ -76,7 +76,7 @@ Gewählte Option: "{Titel der Option 1}", weil
 
 ### {Titel der anderen Option}
 
-{Beispiel | Beschreibung | Verweis auf weitere Informationen | ...}
+{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
 * Gut, weil {Argument a}
 * Gut, weil {Argument b}
