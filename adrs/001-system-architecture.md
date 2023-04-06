@@ -71,7 +71,7 @@ Gewählte Option: "{Titel der Option 1}", weil
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen
 
-### {Titel der Option 1}
+### Kommunikations-Art: synchron
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
@@ -83,7 +83,37 @@ Gewählte Option: "{Titel der Option 1}", weil
 * Schlecht, weil {Argument d}
 * ... <!-- Anzahl der Vor- und Nachteile kann variieren -->
 
-### {Titel der anderen Option}
+### Kommunikations-Art: asynchron
+
+{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+
+* Gut, weil {Argument a}
+* Gut, weil {Argument b}
+* Neutral, weil {Argument c}
+* Schlecht, weil {Argument d}
+* ...
+
+### Kommunikations-Art: mixed-synchron-asynchron
+
+{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+
+* Gut, weil {Argument a}
+* Gut, weil {Argument b}
+* Neutral, weil {Argument c}
+* Schlecht, weil {Argument d}
+* ...
+
+### System Aufbau: monolytisch
+
+{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+
+* Gut, weil {Argument a}
+* Gut, weil {Argument b}
+* Neutral, weil {Argument c}
+* Schlecht, weil {Argument d}
+* ...
+
+### System Aufbau: verteilt
 
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
