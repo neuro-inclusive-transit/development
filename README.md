@@ -15,6 +15,13 @@ im Sommersemester 2023
 - [Finn Gedrath](mailto:finn_nils.gedrath@smail.th-koeln.de)
 - [Katrin Hartz](mailto:katrin.hartz@smail.th-koeln.de)
 - [Leonard Pelzer](mailto:leonard.pelzer@smail.th-koeln.de)
+- [Patrick Lang](mailto:patrick_raul.lang@smail.th-koeln.de)
 
 **Project-Owner:**
 - Prof. Dr. Gerhard Hartmann
+
+## Übersicht
+
+Während der Entwicklung des Minimal-Viable-Products (MVP) wurden Sprint-basiert die in [Projekt 1](https://neuro-inclusive-transit.github.io/vision-concept/) definierten Tickets abgearbeitet. Das [Projekt-Board](https://github.com/orgs/neuro-inclusive-transit/projects/1) dokumentiert hierbei den Arbeitsprozess.
+
+Alle Grundlegenden Architektur- und Technologie-Entscheidungen sind als [Architectural Decision Records (ADRs)](./adrs/README.md) dokumentiert.
