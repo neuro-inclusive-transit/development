@@ -43,15 +43,14 @@ Jeder Microservice benötigt eine Möglichkeit, Nachrichten zu versenden und zu 
 
 ## Ergebnis der Entscheidung
 
-Gewählte Option: "{Titel der Option 1}", weil
-{Begründung. z.B., einzige Option, die das K.O.-Kriterium Entscheidungstreiber erfüllt | die Kraft {Kraft} auflöst | ... | am besten ausfällt (siehe unten)}.
+Gewählte Option: "Mosquitto", weil
+von natur aus MQTT unterstützt und vollständig Open-Source ist (Genauer s.u.)
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
-* Gut, weil {positive Folge, z.B. Verbesserung einer oder mehrerer gewünschter Eigenschaften, ...}
-* Schlecht, weil {negative Konsequenz, z.B. Beeinträchtigung einer oder mehrerer gewünschter Eigenschaften, ...}
-* ... <!-- Anzahl der Konsequenzen kann variieren -->
+* Gut, weil geringer Einrichtungsaufwand
+* Netrual, weil nur MQTT unterstützt wird und ein Wechsel des Protokolls auch ein Wechsel des Brokers bedeutet &rarr; Wechsel des Brokers ist geringer Aufwand, da für Services der spezfische Broker egal ist.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen
