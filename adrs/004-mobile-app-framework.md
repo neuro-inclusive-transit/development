@@ -3,7 +3,7 @@
 <table>
 <tr>
 <th>status</th>
-<td></td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
+<td>proposed</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
 </tr>
 <tr>
 <th>date</th>
@@ -11,11 +11,11 @@
 </tr>
 <tr>
 <th>deciders</th>
-<td></td><!-- list everyone involved in the decision -->
+<td>Finn Gedrath</td><!-- list everyone involved in the decision -->
 </tr>
 <tr>
 <th>consulted</th>
-<td></td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
+<td>Patrick Lang</td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
 </tr>
 <tr>
 <th>informed</th>
@@ -26,21 +26,25 @@
 
 ## Kontext und Problemstellung
 
-{Beschreiben Sie den Kontext und die Problemstellung, z. B. in freier Form in zwei bis drei Sätzen oder in Form einer anschaulichen Geschichte. Möglicherweise möchten Sie das Problem in Form einer Frage formulieren und Links zu Kollaborationsforen oder Problemverwaltungssystemen hinzufügen}.
+In [ADR-003](./003-mobile-app-ground-technology.md) wurde entschieden, dass eine native App für Android und iOS mit Hilfe einer Cross-Platform-Lösung entwickelt werden soll. Dieses ist Framework unabhängig. In diesem ADR wird nun das Web-Framework für die Entwicklung der App festgelegt.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Entscheidungstreiber
 
-* {Entscheidungstreiber 1, z.B. eine Kraft, ein Anliegen, ...}
-* {Entscheidungstreiber 2, z.B. eine Kraft, die Bedenken hat, ...}
-* ... <!-- Anzahl der Treiber kann variieren -->
+Teilweise wurde Dimensionen aus Vargas et. al. (2020) übernommen[^vargas-2020]:
+
+* bestehendes Wissen in der Gruppe, um eine zu erwartende Lernkurve zu minimieren (&rarr; Ökonomie)
+* Performance der Technologie
+* Dokumentation und Community
+* Bestehende Plugins und Libraries, die zusammen mit der Grundtechnologie (siehe [ADR-003](./003-mobile-app-ground-technology.md)) verwendet werden können.
+* Usability (Ease-of-Use, Lernkurve, ...)
+
 
 ## In Betracht gezogene Optionen
 
-* {Titel der Option 1}
-* {Titel der Option 2}
-* {Titel der Option 3}
-* ... <!-- Anzahl der Optionen kann variieren -->
+* Svelte
+* React
+* Vue
 
 ## Ergebnis der Entscheidung
 
@@ -64,15 +68,32 @@ Gewählte Option: "{Titel der Option 1}", weil
 
 ### Svelte
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+Svelte ist ein junges Framework (bekannt seit: 2019[^js-state-2019]) entwickelt von Rich Harris. Es basiert syntaktisch auf HTML und JavaScript. Als Compiler, ist teilweise eigene Svelte Syntax möglich. Teilweise bestehen Ähnlichkeiten zu Mustache.
 
-* Gut, denn {Argument a}
-* Gut, weil {Argument b}
-<!-- Verwende "neutral", wenn das angegebene Argument weder für gut noch für schlecht gewichtet ist -->
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
-* ... <!-- Anzahl der Vor- und Nachteile kann variieren -->
+Beispiel-Syntax einer Komponente:
+
+```svelte
+<script>
+let count = 1;
+$: doubled = count * 2;
+
+function handleClick() { count += 1; }
+</script>
+
+<button on:click={handleClick}> {count} </button>
+
+<p>{count} * 2 = {doubled}</p>
+```
+
+* 🟢 Gut, weil geringer Boilerplate-Code, da Reaktivität und State-Verwaltung direkt in der Komponente möglich ist.
+* 🟢 Gut, denn hohe technische Reaktivität bei State-Veränderung innerhalb einer Komponente und über mehrere Komponenten hinweg.
+
+* 🟢 Gut, da Svelte-Playground vorhanden ist, um Svelte-Code direkt auszuprobieren, und die Svelte-Syntax erlernt werden kann.
+* 🟢 Gut, da Svelte-Syntax ähnlich zu bekannten Templating-Engines wie Mustache ist.
+* 🟡 Neutral, weil Wissen innerhalb der Gruppe über Svelte teilweise vorhanden ist.
+
+* 🟡 Neutral, weil Svelte aktiv weiterentwickelt wird und die Major-Releases in kurzen Abständen erscheinen.
+* 🔴 Schlecht, weil Svelte noch relativ neu ist und es noch nicht viele Plugins gibt.
 
 ### React
 
@@ -98,3 +119,8 @@ Gewählte Option: "{Titel der Option 1}", weil
 ## Weitere Informationen
 
 {Vielleicht möchten Sie hier zusätzliche Beweise/Vertrauenswürdigkeit für das Entscheidungsergebnis angeben und/oder die Einigung des Teams auf die Entscheidung dokumentieren und/oder definieren, wann und wie diese Entscheidung umgesetzt werden sollte und ob/ wann sie erneut überprüft werden sollte und/oder wie die Entscheidung validiert wird. Hier können auch Links zu anderen Entscheidungen und Ressourcen erscheinen.}
+
+
+[^vargas-2020]: Larios Vargas, Enrique, Maurício Aniche, Christoph Treude et al. (2020). „Selecting Third-Party Libraries: The Practitioners’ Perspective“. In: ESEC/FSE 2020. Virtual Event, USA: Association for Computing Machinery, S. 245–256. ISBN: 9781450370431. DOI: [10.1145/3368089.3409711](https://doi.org/10.1145/3368089.3409711)
+
+[^js-state-2019]: Greif, Sacha und Raphaël Benitte (2020). State of JavaScript Trend Report. Technologies: Front-end Frameworks. Letzter Zugriff: 10. August 2021. URL: <https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/>.

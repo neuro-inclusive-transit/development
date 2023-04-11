@@ -11,11 +11,11 @@
 </tr>
 <tr>
 <th>deciders</th>
-<td></td><!-- list everyone involved in the decision -->
+<td>Patrick Lang</td><!-- list everyone involved in the decision -->
 </tr>
 <tr>
 <th>consulted</th>
-<td></td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
+<td>Finn Gedrath</td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
 </tr>
 <tr>
 <th>informed</th>
@@ -31,8 +31,8 @@
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Entscheidungstreiber
 
-* {Entscheidungstreiber 1, z.B. eine Kraft, ein Anliegen, ...}
-* {Entscheidungstreiber 2, z.B. eine Kraft, die Bedenken hat, ...}
+* Ausführlichkeit der Dokumentation
+* 
 * ... <!-- Anzahl der Treiber kann variieren -->
 
 ## In Betracht gezogene Optionen
