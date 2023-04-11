@@ -1,4 +1,4 @@
-# [ADR](./README.md) › {Kurztitel des gelösten Problems und der Lösung}
+# [ADR](./README.md) › Deno.js als Backend-Technologie
 
 <table>
 <tr>
@@ -26,14 +26,14 @@
 
 ## Kontext und Problemstellung
 
-{Beschreiben Sie den Kontext und die Problemstellung, z. B. in freier Form in zwei bis drei Sätzen oder in Form einer anschaulichen Geschichte. Möglicherweise möchten Sie das Problem in Form einer Frage formulieren und Links zu Kollaborationsforen oder Problemverwaltungssystemen hinzufügen}.
+In der System-Architektur (siehe [ADR-001](001-system-architecture.md)) werden mehrere Backend-Services definiert, welche die Daten für die verschiedenen Clients bereitstellen. Diese müssen eine API zur Verfügung stellen, mit denen über HTTP kommuniziert werden kann. Des weiteren müssen diese Services eine Datenbank zur Persistierung der Daten bereitstellen können und untereinander asynchron kommunizieren können.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Entscheidungstreiber
 
-* {Entscheidungstreiber 1, z.B. eine Kraft, ein Anliegen, ...}
-* {Entscheidungstreiber 2, z.B. eine Kraft, die Bedenken hat, ...}
-* ... <!-- Anzahl der Treiber kann variieren -->
+* Bestehendes Wissen im Team
+* Dokumentation
+* Community
 
 ## In Betracht gezogene Optionen
 
@@ -44,68 +44,53 @@
 
 ## Ergebnis der Entscheidung
 
-Gewählte Option: "{Titel der Option 1}", weil
-{Begründung. z.B., einzige Option, die das K.O.-Kriterium Entscheidungstreiber erfüllt | die Kraft {Kraft} auflöst | ... | am besten ausfällt (siehe unten)}.
+Gewählte Option: "Deno.js", weil standardisierte Browser-APIs unterstützt und TypeScript als Standard verwendet wird. Desweiteren hat es eine gute Wissensbasis im Team und kann (in großen Teilen) die gleichen Frameworks/Libraries wie Node.js verwenden.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
-* Gut, weil {positive Folge, z.B. Verbesserung einer oder mehrerer gewünschter Eigenschaften, ...}
-* Schlecht, weil {negative Konsequenz, z.B. Beeinträchtigung einer oder mehrerer gewünschter Eigenschaften, ...}
-* ... <!-- Anzahl der Konsequenzen kann variieren -->
-
-<!-- Dies ist ein optionales Element. Fühlen Sie sich frei, es zu entfernen. -->
-## Validierung
-
-{beschreibt, wie die Umsetzung/Einhaltung des ADR validiert wird. Z.B. durch eine Überprüfung oder einen ArchUnit-Test}
+* Gut, weil besser lesbarer Code durch die Verwendung von TypeScript
+* Gut, weil Wissen und Doku von Browser-APIs weiterverwendet werden kann
+* Risikohaft, weil nicht zwingend für alle Probleme eine Bibliothek existiert, die von Deno unterstützt wird
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen
 
 ### Kotlin
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+<https://kotlinlang.org/docs/server-overview.html>
 
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil geringe bis keine bestehende Wissensgrundlage im Team vorhanden ist
-* ... <!-- Anzahl der Vor- und Nachteile kann variieren -->
+* 🟢 Gut, weil es eine typisierende und moderne Sprache ist, die auf Java basiert. Es besteht eine geringe Gefahrt Boilerplate-Code.
+* 🟢 Gut, weil syntaktisches Wissen von Java (+Kotlin) im Team vorhanden ist
+* 🟡 Neutral, weil es existieren Frameworks und Libraries, die auf Kotlin basieren. Das Wissen über diese ist nicht im Team vorhanden.
+* 🔴 Schlecht, weil geringe bis keine bestehende Wissensgrundlage für eine Server-Seitige Entwicklung im Team vorhanden ist
 
 ### Node.js
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+<https://nodejs.org/en/about>
 
 * 🟢 Gut, da es eine große Community und eine große Anzahl an entwickelten Packages und Frameworks gibt
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
+* 🟢 Gut, weil es eine große Anzahl an bestehenden Projekten gibt, die auf Node.js basieren
+* 🟡 Neutral, da Unterschiede zwischen Browser- und Server-Entwicklung bestehen
+* 🟡 Neutral, da die Einrichtung von TypeScript manuell erfolgen muss
+* 🔴 Schlecht, weil `node_modules`-Ordner mit vielen Abhängigkeiten und Dateien erstellt werden, die nicht benötigt werden
 
 ### Deno.js
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+<https://deno.land/>
 
 * 🟢 Gut, weil eine Laufzeit-Umgebung für JavaScript/TypesScript ist, und das Wissen von JavaScript/TypeScript im Team vorhanden ist
 * 🟢 Gut, weil Nutzung von Browser-APIs wodurch viele Funktionen bereits implementiert sind und nicht durch externe Abhängigkeiten gelöst werden müssen
 * 🟢 Gut, weil es ausführliche Dokumentationen von Deno und vom MDN gibt
 * 🟢 Gut, weil standarmäßig mit TypeScript entwickelt wird, welches die Lesbarkeit und Wartbarkeit des Codes erhöht
 * 🟡 Neutral, weil es nicht viele explizite Deno-Abhängigkeiten existieren, aber auch Module über den Package-Manager NPM eingebunden werden können
-* 🔴 Schlecht, weil {Argument d}
-* ...
 
-### Flutter
+### Firebase
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+<https://firebase.google.com/>
 
 * 🟢 Gut, weil {Argument a}
 * 🟢 Gut, weil {Argument b}
 * 🟡 Neutral, weil {Argument c}
 * 🔴 Schlecht, weil {Argument d}
 * ...
-
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-## Weitere Informationen
-
-{Vielleicht möchten Sie hier zusätzliche Beweise/Vertrauenswürdigkeit für das Entscheidungsergebnis angeben und/oder die Einigung des Teams auf die Entscheidung dokumentieren und/oder definieren, wann und wie diese Entscheidung umgesetzt werden sollte und ob/ wann sie erneut überprüft werden sollte und/oder wie die Entscheidung validiert wird. Hier können auch Links zu anderen Entscheidungen und Ressourcen erscheinen.}
