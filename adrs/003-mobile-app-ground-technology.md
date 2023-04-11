@@ -79,31 +79,31 @@ Gewählte Option: "{Titel der Option 1}", weil
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
-* Gut, denn {Argument a}
-* Gut, weil {Argument b}
+* 🟢 Gut, denn {Argument a}
+* 🟢 Gut, weil {Argument b}
 <!-- Verwende "neutral", wenn das angegebene Argument weder für gut noch für schlecht gewichtet ist -->
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
+* 🟡 Neutral, weil {Argument c}
+* 🔴 Schlecht, weil {Argument d}
 * ... <!-- Anzahl der Vor- und Nachteile kann variieren -->
 
 ### Nativescript
 
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
-* Gut, weil {Argument a}
-* Gut, weil {Argument b}
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
+* 🟢 Gut, weil {Argument a}
+* 🟢 Gut, weil {Argument b}
+* 🟡 Neutral, weil {Argument c}
+* 🔴 Schlecht, weil {Argument d}
 * ...
 
 ### Capacitor
 
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
-* Gut, weil {Argument a}
-* Gut, weil {Argument b}
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
+* 🟢 Gut, weil {Argument a}
+* 🟢 Gut, weil {Argument b}
+* 🟡 Neutral, weil {Argument c}
+* 🔴 Schlecht, weil {Argument d}
 * ...
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->

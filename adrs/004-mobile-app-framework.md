@@ -99,20 +99,20 @@ function handleClick() { count += 1; }
 
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
-* Gut, weil {Argument a}
-* Gut, weil {Argument b}
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
+* 🟢 Gut, weil {Argument a}
+* 🟢 Gut, weil {Argument b}
+* 🟡 Neutral, weil {Argument c}
+* 🔴 Schlecht, weil {Argument d}
 * ...
 
 ### Vue
 
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
 
-* Gut, weil {Argument a}
-* Gut, weil {Argument b}
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
+* 🟢 Gut, weil {Argument a}
+* 🟢 Gut, weil {Argument b}
+* 🟡 Neutral, weil {Argument c}
+* 🔴 Schlecht, weil {Argument d}
 * ...
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
