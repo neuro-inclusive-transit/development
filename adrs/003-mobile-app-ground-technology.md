@@ -62,7 +62,7 @@ Gewählte Option: "{Titel der Option 1}", weil
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen
 
-### Kotlin für Android und/oder Swift für iOs
+### Kotlin für Android und/oder Swift für iOS
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 {Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}

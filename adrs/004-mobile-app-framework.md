@@ -70,6 +70,11 @@ Gewählte Option: "{Titel der Option 1}", weil
 
 Svelte ist ein junges Framework (bekannt seit: 2019[^js-state-2019]) entwickelt von Rich Harris. Es basiert syntaktisch auf HTML und JavaScript. Als Compiler, ist teilweise eigene Svelte Syntax möglich. Teilweise bestehen Ähnlichkeiten zu Mustache.
 
+- [Svelte Dokumentation](https://svelte.dev/docs)
+- [Svelte Playground](https://svelte.dev/repl/)
+- [NativeScript + Svelte](https://docs.nativescript.org/tutorial/svelte.html)
+- [Capacitor + Svelte](https://capacitorjs.com/solution/svelte) 
+
 Beispiel-Syntax einer Komponente:
 
 ```svelte
@@ -97,20 +102,74 @@ function handleClick() { count += 1; }
 
 ### React
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+React ist ein von Facebook entwickeltes Framework. Templates werden in JSX geschrieben (Erweiterung von JS um HTML-Elemente).
 
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
+- [React Dokumentation](https://reactjs.org/docs/getting-started.html)
+- [React Playground](https://codesandbox.io/s/new)
+- [NativeScript + React](https://docs.nativescript.org/tutorial/react.html)
+- [Capacitor + React](https://capacitorjs.com/solution/react) 
+
+Beispiel-Syntax einer Komponente:
+
+```jsx
+import React, { useState } from 'react';
+
+export default function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)}>
+        {count}
+      </button>
+      <p>{count} * 2 = {count * 2}</p>
+    </div>
+  );
+}
+
+```
+
+* 🟢 Gut, weil große Community und viele Plugins vorhanden sind.
+* 🔴 Schlecht, weil hoher Boilerplate-Code, da Reaktivität und State-Verwaltung nicht direkt in der Komponente möglich ist. Stattdessen muss ein zusätzlicher State-Manager verwendet werden.
+* 🔴 Schlecht, weil Browser-APIs wegabstrahiert und konzeptioniert werden (z.B. `fetch`, `DOM`, etc.)
 
 ### Vue
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+Vue.js ist ein Framework von Evan You. Vue Projekte können als eigenständige Single-File-Componenten entwickelt werden. Templates werden in HTML mit einer Mustach-ähnlichen Syntax geschrieben.
 
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
+- [Vue Dokumentation](https://vuejs.org/v2/guide/)
+- [Vue Playground](https://play.vuejs.org/)
+- [NativeScript + Vue](https://docs.nativescript.org/tutorial/vue.html)
+- [Capacitor + Vue](https://capacitorjs.com/solution/vue)
+
+Beispiel-Syntax einer Komponente:
+
+```vue
+<template>
+  <button @click="count++">You clicked me {{ count }} times.</button>
+
+  <p> {{ count }} * 2 = {{ double }} </p>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      count: 0,
+    };
+  },
+  computed: {
+    double() {
+      return this.count * 2;
+    },
+  },
+};
+</script>
+```
+
+
+* 🟢 Gut, weil große Community und viele Plugins vorhanden sind.
+* 🟢 Gut, weil von kleinen bis zu großen Projekten verwendet wird.
 * 🟡 Neutral, weil {Argument c}
 * 🔴 Schlecht, weil {Argument d}
 * ...
