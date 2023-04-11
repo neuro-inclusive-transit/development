@@ -49,9 +49,10 @@ Gewählte Option: "Deno.js", weil standardisierte Browser-APIs unterstützt und 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
-* Gut, weil besser lesbarer Code durch die Verwendung von TypeScript
-* Gut, weil Wissen und Doku von Browser-APIs weiterverwendet werden kann
-* Risikohaft, weil nicht zwingend für alle Probleme eine Bibliothek existiert, die von Deno unterstützt wird
+* 🟢 Gut, weil besser lesbarer Code durch die Verwendung von TypeScript
+* 🟢 Gut, weil Wissen und Doku von Browser-APIs weiterverwendet werden kann
+* 🔴 Risikohaft, weil nicht zwingend für alle Probleme eine Bibliothek existiert, die von Deno unterstützt wird
+* 🟢 Gut, weil ein Wechsel zu Node.js im Nachhinein möglich ist und Code weiterverwendet werden kann
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen
@@ -83,6 +84,7 @@ Gewählte Option: "Deno.js", weil standardisierte Browser-APIs unterstützt und 
 * 🟢 Gut, weil Nutzung von Browser-APIs wodurch viele Funktionen bereits implementiert sind und nicht durch externe Abhängigkeiten gelöst werden müssen
 * 🟢 Gut, weil es ausführliche Dokumentationen von Deno und vom MDN gibt
 * 🟢 Gut, weil standarmäßig mit TypeScript entwickelt wird, welches die Lesbarkeit und Wartbarkeit des Codes erhöht
+* 🟢 Gut, weil es eine native Möglichkeit gibt Tests zu schreiben
 * 🟡 Neutral, weil es nicht viele explizite Deno-Abhängigkeiten existieren, aber auch Module über den Package-Manager NPM eingebunden werden können
 
 ### Firebase
