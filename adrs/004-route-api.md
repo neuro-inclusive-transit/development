@@ -1,4 +1,4 @@
-# [ADR](./README.md) › Auswahl eine Routen/Maps-API
+# [ADR](./README.md) › Auswahl einer Routen/Maps-API
 
 <table>
 <tr>
@@ -11,7 +11,7 @@
 </tr>
 <tr>
 <th>deciders</th>
-<td>Leonard Pelzer</td><!-- list everyone involved in the decision -->
+<td>Leonard Pelzer, Patrick Raul Lang</td><!-- list everyone involved in the decision -->
 </tr>
 <tr>
 <th>consulted</th>
@@ -85,14 +85,14 @@ Mögliche Alternative/Fallback: "[Google Maps Platform](https://developers.googl
 
 ## Mögliche Probleme und Fallbacks
 
-* Keine Live-Daten: 
-  * Beschreibung: Es ist nicht erkennbar, wie live die Daten der Here-API sind. Es ist aber davon auszugehen, dass diese Daten keine Verspätungen oder spontane Ausfälle beinhalten. Hierfür muss im besten Fall eine weitere API eingebunden werden, um die aktualität der Daten zu verifizieren.
+* **Keine Live-Daten**: 
+  * Beschreibung: Es ist nicht erkennbar, wie aktuell die Daten der Here-API sind. Es ist aber davon auszugehen, dass diese Daten keine Verspätungen oder spontane Ausfälle beinhalten. Hierfür muss im besten Fall eine weitere API eingebunden werden, um die aktualität der Daten zu verifizieren.
   * Fallback: Eigene Daten mit eigens entwickelter API simulieren.
 
-* Unterstützte Programmiersprachen der Here Maps SDK passen nicht zu System-Architektur:
-  * Beschreibung: Die Integration in eine Web-Anwendung kann nur mit Flutter erfolgen
+* **Unterstützte Programmiersprachen der Here Maps SDK passen nicht zu System-Architektur**:
+  * Beschreibung: Die Integration der Karte in eine Web-Anwendung kann nur mit Flutter erfolgen.
   * Fallback: Verwendung der Google Maps Platform
 
 ## Weitere Informationen
 
-Alle gesammelten Informationen sind im [FigJam-Board](https://www.figma.com/file/YXBqSf42uMzAjgqV4KJmEO/P2-%E2%80%93-Projekt-Board?node-id=41-74&t=Xkjrxdm5OXuYMJks-4) dokumentiert.
+Alle gesammelten Informationen und weitere Links sind im [FigJam-Board](https://www.figma.com/file/YXBqSf42uMzAjgqV4KJmEO/P2-%E2%80%93-Projekt-Board?node-id=41-74&t=Xkjrxdm5OXuYMJks-4) dokumentiert.
