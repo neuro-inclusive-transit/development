@@ -1,4 +1,4 @@
-# [ADR](./README.md) › {Auswahl eine Routen-API}
+# [ADR](./README.md) › Auswahl eine Routen-API
 
 <table>
 <tr>
@@ -26,12 +26,12 @@
 
 ## Kontext und Problemstellung
 
-EIn zentrales Element des Sytsem ist die Planung und Begleitung von ÜPNV-Reisen. Hierfür muss das System eine Routenplanung und Navigation anbieten. Hierzu ist eine API zum Abfragen möglicher Routen nötig. Zusätzlich muss eine Karte in das System integriert werden.
+Ein zentrales Element des Systems ist die Planung und Begleitung von ÖPNV-Reisen. Hierfür muss das System eine Routenplanung und Navigation anbieten. Hierzu ist eine API zum Abfragen möglicher Routen nötig. Zusätzlich muss eine Karte in das System integriert werden.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Entscheidungstreiber
 
-* Funktionale und nichtfunktionale Anforderungen aus Konzeptphase.
+* Funktionale und nichtfunktionale Anforderungen aus Konzeptphase
 * Kosten
 
 ## In Betracht gezogene Optionen
