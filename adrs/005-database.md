@@ -3,11 +3,11 @@
 <table>
 <tr>
 <th>status</th>
-<td></td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
+<td>accepted</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
 </tr>
 <tr>
 <th>date</th>
-<td></td><!-- YYYY-MM-DD, when the decision was last updated -->
+<td>2023-04-17</td><!-- YYYY-MM-DD, when the decision was last updated -->
 </tr>
 <tr>
 <th>deciders</th>
@@ -41,10 +41,9 @@ Gewählte Option: "MongoDB", weil es eine offene dokumentenbasierte DB ist.
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
-* Gut, weil Open-Source
-* Gut, weil Dokumente es ermöglichen nicht-relationale Daten in einer halb-strukturierten Art zu speichern
-* Gut, weil Dokumentation für Driver und Schema gut ist
-* ... <!-- Anzahl der Konsequenzen kann variieren -->
+* 🟢 Gut, weil Open-Source
+* 🟢 Gut, weil Dokumente es ermöglichen nicht-relationale Daten in einer halb-strukturierten Art zu speichern
+* 🟢 Gut, weil Dokumentation für Driver und Schema gut ist
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Weitere Informationen

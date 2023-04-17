@@ -1,21 +1,16 @@
-# [ADR](./README.md) › {Kurztitel des gelösten Problems und der Lösung}
-
+# [ADR](./README.md) › Svelte als Framework für NativeScript
 <table>
 <tr>
 <th>status</th>
-<td>proposed</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
+<td>accepted</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
 </tr>
 <tr>
 <th>date</th>
-<td></td><!-- YYYY-MM-DD, when the decision was last updated -->
+<td>2023-04-17</td><!-- YYYY-MM-DD, when the decision was last updated -->
 </tr>
 <tr>
 <th>deciders</th>
-<td>Finn Gedrath</td><!-- list everyone involved in the decision -->
-</tr>
-<tr>
-<th>consulted</th>
-<td>Patrick Lang</td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
+<td>Finn Gedrath, Patrick Lang</td><!-- list everyone involved in the decision -->
 </tr>
 <tr>
 <th>informed</th>
@@ -48,20 +43,8 @@ Teilweise wurde Dimensionen aus Vargas et. al. (2020) übernommen[^vargas-2020]:
 
 ## Ergebnis der Entscheidung
 
-Gewählte Option: "{Titel der Option 1}", weil
-{Begründung. z.B., einzige Option, die das K.O.-Kriterium Entscheidungstreiber erfüllt | die Kraft {Kraft} auflöst | ... | am besten ausfällt (siehe unten)}.
-
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-### Consequences
-
-* Gut, weil {positive Folge, z.B. Verbesserung einer oder mehrerer gewünschter Eigenschaften, ...}
-* Schlecht, weil {negative Konsequenz, z.B. Beeinträchtigung einer oder mehrerer gewünschter Eigenschaften, ...}
-* ... <!-- Anzahl der Konsequenzen kann variieren -->
-
-<!-- Dies ist ein optionales Element. Fühlen Sie sich frei, es zu entfernen. -->
-## Validierung
-
-{beschreibt, wie die Umsetzung/Einhaltung des ADR validiert wird. Z.B. durch eine Überprüfung oder einen ArchUnit-Test}
+Gewählte Option: "Svelte", weil
+am besten ausfällt (siehe unten) und Motivation besteht Technologie auszuprobieren.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen

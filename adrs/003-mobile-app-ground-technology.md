@@ -1,13 +1,13 @@
-# [ADR](./README.md) › {Kurztitel des gelösten Problems und der Lösung}
+# [ADR](./README.md) › NativeScript als Grundlagen-Technologie frontend-seitig
 
 <table>
 <tr>
 <th>status</th>
-<td></td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
+<td>accepted</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
 </tr>
 <tr>
 <th>date</th>
-<td></td><!-- YYYY-MM-DD, when the decision was last updated -->
+<td>2023-04-17</td><!-- YYYY-MM-DD, when the decision was last updated -->
 </tr>
 <tr>
 <th>deciders</th>
@@ -47,13 +47,12 @@ Im Rahmen der Konzeption der mobilen App Anwendung wurde durch die Anforderungen
 
 ## Ergebnis der Entscheidung
 
-Gewählte Option: "{Titel der Option 1}", weil
-{Begründung. z.B., einzige Option, die das K.O.-Kriterium Entscheidungstreiber erfüllt | die Kraft {Kraft} auflöst | ... | am besten ausfällt (siehe unten)}.
+Gewählte Option: "NativeScript", weil am besten ausfällt (siehe unten)}.
 
 ### Consequences
 
-* Gut, weil {positive Folge, z.B. Verbesserung einer oder mehrerer gewünschter Eigenschaften, ...}
-* Schlecht, weil {negative Konsequenz, z.B. Beeinträchtigung einer oder mehrerer gewünschter Eigenschaften, ...}
+* Gut, weil guter Reifegrad der Dokumentation
+* Gut, weil passend zur Architektur
 
 
 ## Pro und Kontra der Optionen
@@ -127,9 +126,3 @@ Capacitor ist eine native Open-Source-Framework zum Erstellen webnativer Apps. E
 *	🔴Schlecht, weil langsamer durch WebViews
 *	🔴Schlecht, weil ältere Geräte Probleme beim Laden mit Capacitor haben
 *	🔴Schlecht, weil nur eine kleine Menge an Daten ( wie z.B die User ID) lokal gespeichert werden kann. Außerdem werden Informationen von WebViews vom OS bei Platzmangel gelöscht.
-
-
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-## Weitere Informationen
-
-{Vielleicht möchten Sie hier zusätzliche Beweise/Vertrauenswürdigkeit für das Entscheidungsergebnis angeben und/oder die Einigung des Teams auf die Entscheidung dokumentieren und/oder definieren, wann und wie diese Entscheidung umgesetzt werden sollte und ob/ wann sie erneut überprüft werden sollte und/oder wie die Entscheidung validiert wird. Hier können auch Links zu anderen Entscheidungen und Ressourcen erscheinen.}

@@ -3,11 +3,11 @@
 <table>
 <tr>
 <th>status</th>
-<td></td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
+<td>accepted</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
 </tr>
 <tr>
 <th>date</th>
-<td></td><!-- YYYY-MM-DD, when the decision was last updated -->
+<td>2023-04-17</td><!-- YYYY-MM-DD, when the decision was last updated -->
 </tr>
 <tr>
 <th>deciders</th>

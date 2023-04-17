@@ -3,11 +3,11 @@
 <table>
 <tr>
 <th>status</th>
-<td>proposed</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
+<td>accepted</td><!-- {proposed / rejected / accepted / deprecated / … / superseded by ADR-0005 <0005-example.md>} -->
 </tr>
 <tr>
 <th>date</th>
-<td></td><!-- YYYY-MM-DD, when the decision was last updated -->
+<td>2023-04-17</td><!-- YYYY-MM-DD, when the decision was last updated -->
 </tr>
 <tr>
 <th>deciders</th>
@@ -93,7 +93,6 @@ Gewählte Option: "Deno.js", weil standardisierte Browser-APIs unterstützt und 
 
 * 🟢 Gut, weil detaillierte Dokumentation vorhanden ist.
 * 🟢 Gut, weil die Komplexität durch ein eifaches UI gering ist und keine Notwendigkeit von weiteren Programmiersprachen besteht.
-* 🟡 Neutral, weil {Argument c}
 * 🔴 Schlecht, weil es sich um eine Closed Source Platform handelt.
 * 🔴 Schlecht, weil Nutzer auf der Plattform angemeldet sind und somit ein Umzug auf eine andere Plattform nicht möglich ist.
 * 🔴 Schlecht, weil bei extra Funktionen teilweise hohe Kosten anfallen

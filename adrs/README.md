@@ -5,5 +5,7 @@
 
 
 - [ADR-002: Deno.js als Backend-Technologie](./002-backend-services-technology.md)
+- [ADR-003: NativeScript als Grundlagen-Technologie frontend-seitig](003-mobile-app-ground-technology.md)
+- [ADR-004: Svelte als Framework für NativeScript](004-mobile-app-framework.md)
 - [ADR-005: MongoDB als Datenbank](./005-database.md)
 - [ADR-006: Mosquitto als Broker](006-broker.md)
