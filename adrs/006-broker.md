@@ -1,4 +1,4 @@
-# [ADR](./README.md) › {Kurztitel des gelösten Problems und der Lösung}
+# [ADR](./README.md) › Mosquitto als Broker
 
 <table>
 <tr>
@@ -32,8 +32,7 @@ Jeder Microservice benötigt eine Möglichkeit, Nachrichten zu versenden und zu 
 ## Entscheidungstreiber
 
 * Ausführlichkeit der Dokumentation
-* 
-* ... <!-- Anzahl der Treiber kann variieren -->
+* Protokoll-Unterstützung
 
 ## In Betracht gezogene Optionen
 
@@ -86,7 +85,5 @@ von natur aus MQTT unterstützt und vollständig Open-Source ist (Genauer s.u.)
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Weitere Informationen
 
-{Vielleicht möchten Sie hier zusätzliche Beweise/Vertrauenswürdigkeit für das Entscheidungsergebnis angeben und/oder die Einigung des Teams auf die Entscheidung dokumentieren und/oder definieren, wann und wie diese Entscheidung umgesetzt werden sollte und ob/ wann sie erneut überprüft werden sollte und/oder wie die Entscheidung validiert wird. Hier können auch Links zu anderen Entscheidungen und Ressourcen erscheinen.}
 
-
-[mqtt]: <https://mqtt.org/>
+[^mqtt]: <https://mqtt.org/>

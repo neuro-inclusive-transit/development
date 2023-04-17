@@ -6,3 +6,4 @@
 
 - [ADR-002: Deno.js als Backend-Technologie](./002-backend-services-technology.md)
 - [ADR-005: MongoDB als Datenbank](./005-database.md)
+- [ADR-006: Mosquitto als Broker](006-broker.md)
