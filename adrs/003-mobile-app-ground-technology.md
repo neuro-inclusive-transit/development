@@ -75,8 +75,8 @@ Swift ist eine Programmiersprache von Apple Inc. für iOS, iPadOS, macOS, tvOS, 
 
 Flutter ist ein Open-Source-UI-Entwicklungs-Kit von Google. Mit Flutter können Cross-Platform Apps in der Programmiersprache Dart entwickelt werden. Ein Flutter-Programm soll ohne größere Anpassungen auf folgenden Zielplattformen lauffähig sein: Webanwendung, Android, iOS, Windows, Linux, macOS und Google Fuchsia.
 
-[Flutter Dokumentation](https://dart.dev/guides)
-[Flutter Playground](https://dartpad.dev/?)
+* [Flutter Dokumentation](https://dart.dev/guides)
+* [Flutter Playground](https://dartpad.dev/?)
 
 
 *	🟢 Gut, denn Flutter hat einen App-Builder der eine einfache Erstellung von Prototypen ermöglicht
@@ -95,9 +95,9 @@ Flutter ist ein Open-Source-UI-Entwicklungs-Kit von Google. Mit Flutter können 
 
 NativeScript ist ein Open-Source-Framework von Telerik by Progress zum Entwickeln von Apps auf iOS und Android. Als plattformunabhängige Programmiersprachen werden JavaScript und TypeScript eingesetzt.
 
-[NativeScript Dokumentation](https://docs.nativescript.org/)
-[NativeScript Playground](https://preview.nativescript.org/)
-[NativeScript Client-Side Storage](https://blog.nativescript.org/client-side-storage-in-nativescript-applications/)
+* [NativeScript Dokumentation](https://docs.nativescript.org/)
+* [NativeScript Playground](https://preview.nativescript.org/)
+* [NativeScript Client-Side Storage](https://blog.nativescript.org/client-side-storage-in-nativescript-applications/)
 
 *	🟢Gut, weil es das Aussehen und das Gefühl einer nativen App verleiht
 *	🟢Gut, weil sehr große Community
@@ -112,7 +112,7 @@ NativeScript ist ein Open-Source-Framework von Telerik by Progress zum Entwickel
 
 Capacitor ist eine native Open-Source-Framework zum Erstellen webnativer Apps. Es lassen sich plattformübergreifende iOS-, Android- und Progressive-Web-Apps mit JavaScript, HTML und CSS entwickeln.
 
-[Capacitor Dokumentation](https://capacitorjs.com/docs)
+* [Capacitor Dokumentation](https://capacitorjs.com/docs)
 
 *	🟢Gut, weil für die Erstellung der einer nativen App HTML, CSS und JavaScript verwendet wird
 *	🟢Gut, weil es gleichzeitig auch als PWA funktioniert
