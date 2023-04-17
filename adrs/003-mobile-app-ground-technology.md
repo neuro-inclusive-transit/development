@@ -65,9 +65,11 @@ Kotlin ist eine plattformübergreifende, statisch typisierte Programmiersprache,
 Swift ist eine Programmiersprache von Apple Inc. für iOS, iPadOS, macOS, tvOS, watchOS, Linux, Windows
 
 
-*	Schlecht, weil die Nutzung den Arbeitsprozess für die Erstellung einer nativen App für Android und iOS verlangsamt.
-*	Schlecht, weil Swift am besten für die Entwicklung von iOS Anwendungen funktioniert und auch dafür ausgelegt wurde
-*	Schlecht, weil Kotlin nur performant bei der Erstellung von Android Anwendungen ist und dabei trotzdem bei vielen Stellen Java verwendet
+*	🔴Schlecht, weil die Nutzung den Arbeitsprozess für die Erstellung einer nativen App für Android und iOS verlangsamt.
+*	🔴Schlecht, weil Swift am besten für die Entwicklung von iOS Anwendungen funktioniert und auch dafür ausgelegt wurde
+*	🔴Schlecht, weil Kotlin nur performant bei der Erstellung von Android Anwendungen ist und dabei trotzdem bei vielen Stellen Java verwendet
+
+
 
 ### Flutter
 
@@ -112,19 +114,19 @@ Capacitor ist eine native Open-Source-Framework zum Erstellen webnativer Apps. E
 
 [Capacitor Dokumentation](https://capacitorjs.com/docs)
 
-•	🟢Gut, weil für die Erstellung der einer nativen App HTML, CSS und JavaScript verwendet wird
-•	🟢Gut, weil es gleichzeitig auch als PWA funktioniert
-•	🟢Gut, weil eine konstante API für ein 100% sharing des Codes sorgt
-•	🟢Gut weil, die Anwendung durch den WebView auf allen Geräten und Systemen gleich aussieht
-•	🟢Gut, weil auch Cordova plugins unterstützt werden
-•	🟢Gut, weil Capacitor mit jedem JavaScript Framework kompatibel ist
-•	🟢Gut weil, sehr lightweight
-•	🟢Gut weil, vollen Zugriff auf native SDK auf allen Plattformen 
-•	🟢Gut weil, vereinfachte App Store Distribution
-•	🔴Schlecht, weil Capacitor zum Speichern von Daten SQLite nutzt 
-•	🔴Schlecht, weil langsamer durch WebViews
-•	🔴Schlecht, weil ältere Geräte Probleme beim Laden mit Capacitor haben
-•	🔴Schlecht, weil nur eine kleine Menge an Daten ( wie z.B die User ID) lokal gespeichert werden kann. Außerdem werden Informationen von WebViews vom OS bei Platzmangel gelöscht.
+*	🟢Gut, weil für die Erstellung der einer nativen App HTML, CSS und JavaScript verwendet wird
+*	🟢Gut, weil es gleichzeitig auch als PWA funktioniert
+*	🟢Gut, weil eine konstante API für ein 100% sharing des Codes sorgt
+*	🟢Gut weil, die Anwendung durch den WebView auf allen Geräten und Systemen gleich aussieht
+*	🟢Gut, weil auch Cordova plugins unterstützt werden
+*	🟢Gut, weil Capacitor mit jedem JavaScript Framework kompatibel ist
+*	🟢Gut weil, sehr lightweight
+*	🟢Gut weil, vollen Zugriff auf native SDK auf allen Plattformen 
+*	🟢Gut weil, vereinfachte App Store Distribution
+*	🔴Schlecht, weil Capacitor zum Speichern von Daten SQLite nutzt 
+*	🔴Schlecht, weil langsamer durch WebViews
+*	🔴Schlecht, weil ältere Geräte Probleme beim Laden mit Capacitor haben
+*	🔴Schlecht, weil nur eine kleine Menge an Daten ( wie z.B die User ID) lokal gespeichert werden kann. Außerdem werden Informationen von WebViews vom OS bei Platzmangel gelöscht.
 
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
