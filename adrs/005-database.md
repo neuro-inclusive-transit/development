@@ -1,4 +1,4 @@
-# [ADR](./README.md) › {Kurztitel des gelösten Problems und der Lösung}
+# [ADR](./README.md) › MongoDB als Datenbank
 
 <table>
 <tr>
@@ -26,68 +26,27 @@
 
 ## Kontext und Problemstellung
 
-{Beschreiben Sie den Kontext und die Problemstellung, z. B. in freier Form in zwei bis drei Sätzen oder in Form einer anschaulichen Geschichte. Möglicherweise möchten Sie das Problem in Form einer Frage formulieren und Links zu Kollaborationsforen oder Problemverwaltungssystemen hinzufügen}.
-
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-## Entscheidungstreiber
-
-* 
-* ... <!-- Anzahl der Treiber kann variieren -->
+Wir müssen eine Datenbanktechnologie auswählen, um halbstrukturierte Daten aus den Microservices zu speichern.
 
 ## In Betracht gezogene Optionen
 
 * MongoDB
 * CouchDB
 * PostgreSQL
-* ... <!-- Anzahl der Optionen kann variieren -->
 
 ## Ergebnis der Entscheidung
 
-Gewählte Option: "{Titel der Option 1}", weil
-{Begründung. z.B., einzige Option, die das K.O.-Kriterium Entscheidungstreiber erfüllt | die Kraft {Kraft} auflöst | ... | am besten ausfällt (siehe unten)}.
+Gewählte Option: "MongoDB", weil es eine offene dokumentenbasierte DB ist.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
-* Gut, weil {positive Folge, z.B. Verbesserung einer oder mehrerer gewünschter Eigenschaften, ...}
-* Schlecht, weil {negative Konsequenz, z.B. Beeinträchtigung einer oder mehrerer gewünschter Eigenschaften, ...}
+* Gut, weil Open-Source
+* Gut, weil Dokumente es ermöglichen nicht-relationale Daten in einer halb-strukturierten Art zu speichern
+* Gut, weil Dokumentation für Driver und Schema gut ist
 * ... <!-- Anzahl der Konsequenzen kann variieren -->
-
-<!-- Dies ist ein optionales Element. Fühlen Sie sich frei, es zu entfernen. -->
-
-## Pro und Kontra der Optionen
-
-### MongoDB
-
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
-
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
-
-### CouchDB
-
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
-
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
-
-### PostgreSQL
-
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
-
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil SQL-Datenbank und die Daten nicht hoch-vernetzt sind
-* ...
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Weitere Informationen
 
-{Vielleicht möchten Sie hier zusätzliche Beweise/Vertrauenswürdigkeit für das Entscheidungsergebnis angeben und/oder die Einigung des Teams auf die Entscheidung dokumentieren und/oder definieren, wann und wie diese Entscheidung umgesetzt werden sollte und ob/ wann sie erneut überprüft werden sollte und/oder wie die Entscheidung validiert wird. Hier können auch Links zu anderen Entscheidungen und Ressourcen erscheinen.}
+- Mongo DB Driver: https://www.npmjs.com/package/mongodb
