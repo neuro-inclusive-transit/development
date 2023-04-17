@@ -64,9 +64,10 @@ Kotlin ist eine plattformübergreifende, statisch typisierte Programmiersprache,
 Swift ist eine Programmiersprache von Apple Inc. für iOS, iPadOS, macOS, tvOS, watchOS, Linux, Windows
 
 
-*	🔴Schlecht, weil die Nutzung den Arbeitsprozess für die Erstellung einer nativen App für Android und iOS verlangsamt.
-*	🔴Schlecht, weil Swift am besten für die Entwicklung von iOS Anwendungen funktioniert und auch dafür ausgelegt wurde
-*	🔴Schlecht, weil Kotlin nur performant bei der Erstellung von Android Anwendungen ist und dabei trotzdem bei vielen Stellen Java verwendet
+*	🔴 Schlecht, weil die Nutzung den Arbeitsprozess für die Erstellung einer nativen App für Android und iOS verlangsamt.
+*	🔴 Schlecht, weil Swift am besten für die Entwicklung von iOS Anwendungen funktioniert und auch dafür ausgelegt wurde
+*	🔴 Schlecht, weil Kotlin nur performant bei der Erstellung von Android Anwendungen ist und dabei trotzdem bei vielen Stellen Java verwendet
+
 
 
 
@@ -80,14 +81,15 @@ Flutter ist ein Open-Source-UI-Entwicklungs-Kit von Google. Mit Flutter können 
 
 *	🟢 Gut, denn Flutter hat einen App-Builder der eine einfache Erstellung von Prototypen ermöglicht
 *	🟢 Gut, weil durch third-party Integrationen auf Native Funktionen zugegriffen werden kann
-*	🟢Gut, weil Veränderungen direkt in der App erscheinen
-*	🟢Gut, weil Flutter Apps eine gute Performance haben
-*	🟢Gut, weil single code base und dadurch schnelle und effiziente Entwicklung
+*	🟢 Gut, weil Veränderungen direkt in der App erscheinen
+*	🟢 Gut, weil Flutter Apps eine gute Performance haben
+*	🟢 Gut, weil single code base und dadurch schnelle und effiziente Entwicklung
 *	🟡 Neutral, weil für das Erstellen der App Dart verwendet werden muss
 *	🔴 Schlecht, weil Flutter Apps nicht von Browsern supported werden
-*	🔴Schlecht, weil Flutter noch relativ neu ist und keine große Unterstützung durch die Community liefert.
-*	🔴Schlecht, weil viel selbst erlernt werden muss und dadurch der Zeitaufwand signifikant ansteigt
-*	🔴Schlecht, weil Flutter von Google erstellt wurde und daher in Einzelfällen Probleme mit iOS Systemen aufweist
+*	🔴 Schlecht, weil Flutter noch relativ neu ist und keine große Unterstützung durch die Community liefert.
+*	🔴 Schlecht, weil viel selbst erlernt werden muss und dadurch der Zeitaufwand signifikant ansteigt
+*	🔴 Schlecht, weil Flutter von Google erstellt wurde und daher in Einzelfällen Probleme mit iOS Systemen aufweist
+
 
 
 ### Nativescript
@@ -98,14 +100,15 @@ NativeScript ist ein Open-Source-Framework von Telerik by Progress zum Entwickel
 * [NativeScript Playground](https://preview.nativescript.org/)
 * [NativeScript Client-Side Storage](https://blog.nativescript.org/client-side-storage-in-nativescript-applications/)
 
-*	🟢Gut, weil es das Aussehen und das Gefühl einer nativen App verleiht
-*	🟢Gut, weil sehr große Community
-*	🟢Gut, weil immer kompatibel mit den neuesten OS Versionen ist
-*	🟢Gut, weil es mit JavaScript und CSS geschrieben wird
-*	🟢Gut, weil clientseitige Haltung von Daten möglich ist
-*	🟢Gut, weil asymmetrische Kryptographie durch ein Plugin möglich ist
-*	🔴Schlecht, weil HTML und DOM nicht unterstützt werden ( durch Plugin möglich)
-*	🔴Schlecht, weil für das DeBugging ein Emulator oder ein Gerät verwendet werden muss( Android Studio möglich)
+*	🟢 Gut, weil es das Aussehen und das Gefühl einer nativen App verleiht
+*	🟢 Gut, weil sehr große Community
+*	🟢 Gut, weil immer kompatibel mit den neuesten OS Versionen ist
+*	🟢 Gut, weil es mit JavaScript und CSS geschrieben wird
+*	🟢 Gut, weil clientseitige Haltung von Daten möglich ist
+*	🟢 Gut, weil asymmetrische Kryptographie durch ein Plugin möglich ist
+*	🔴 Schlecht, weil HTML und DOM nicht unterstützt werden (durch Plugin möglich)
+*	🔴 Schlecht, weil für das DeBugging ein Emulator oder ein Gerät verwendet werden muss (Android Studio/XCode möglich)
+
 
 ### Capacitor
 
@@ -113,16 +116,16 @@ Capacitor ist eine native Open-Source-Framework zum Erstellen webnativer Apps. E
 
 * [Capacitor Dokumentation](https://capacitorjs.com/docs)
 
-*	🟢Gut, weil für die Erstellung der einer nativen App HTML, CSS und JavaScript verwendet wird
-*	🟢Gut, weil es gleichzeitig auch als PWA funktioniert
-*	🟢Gut, weil eine konstante API für ein 100% sharing des Codes sorgt
-*	🟢Gut weil, die Anwendung durch den WebView auf allen Geräten und Systemen gleich aussieht
-*	🟢Gut, weil auch Cordova plugins unterstützt werden
-*	🟢Gut, weil Capacitor mit jedem JavaScript Framework kompatibel ist
-*	🟢Gut weil, sehr lightweight
-*	🟢Gut weil, vollen Zugriff auf native SDK auf allen Plattformen 
-*	🟢Gut weil, vereinfachte App Store Distribution
-*	🔴Schlecht, weil Capacitor zum Speichern von Daten SQLite nutzt 
-*	🔴Schlecht, weil langsamer durch WebViews
-*	🔴Schlecht, weil ältere Geräte Probleme beim Laden mit Capacitor haben
-*	🔴Schlecht, weil nur eine kleine Menge an Daten ( wie z.B die User ID) lokal gespeichert werden kann. Außerdem werden Informationen von WebViews vom OS bei Platzmangel gelöscht.
+*	🟢 Gut, weil für die Erstellung der einer nativen App HTML, CSS und JavaScript verwendet wird
+*	🟢 Gut, weil es gleichzeitig auch als PWA funktioniert
+*	🟢 Gut, weil eine konstante API für ein 100% sharing des Codes sorgt
+*	🟢 Gut weil, die Anwendung durch den WebView auf allen Geräten und Systemen gleich aussieht
+*	🟢 Gut, weil auch Cordova plugins unterstützt werden
+*	🟢 Gut, weil Capacitor mit jedem JavaScript Framework kompatibel ist
+*	🟢 Gut weil, sehr lightweight
+*	🟢 Gut weil, vollen Zugriff auf native SDK auf allen Plattformen 
+*	🟢 Gut weil, vereinfachte App Store Distribution
+*	🔴 Schlecht, weil Capacitor zum Speichern von Daten SQLite nutzt 
+*	🔴 Schlecht, weil langsamer durch WebViews
+*	🔴 Schlecht, weil ältere Geräte Probleme beim Laden mit Capacitor haben
+*	🔴 Schlecht, weil nur eine kleine Menge an Daten ( wie z.B die User ID) lokal gespeichert werden kann. Außerdem werden Informationen von WebViews vom OS bei Platzmangel gelöscht.
