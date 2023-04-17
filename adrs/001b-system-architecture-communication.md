@@ -26,7 +26,7 @@
 
 ## Kontext und Problemstellung
 
-Es muss sich auf das Kommunikations-Paradigma für die die Komunikation zw. Client und der Micro-Services getroffen werden.
+Es muss ein Kommunikations-Paradigma für die Komunikation zw. Client und der Micro-Services gewählt werden werden.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen.
 ## Entscheidungstreiber
@@ -52,10 +52,10 @@ Gewählte Option: "mixed-asynchron-synchron", weil das Use Case Argument überwi
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
-* 🟢 Gut, weil für bestimmte Use Cases Echtzeit-Kommunikation für andere auf Events reagiert werden muss. Mit einem mixed-Ansatz kann beides abgedeckt werden
-* 🔴 Schlecht, weil die Komplexität des Systems erhöt wird, da beide Paradigma vom Team umgesetzt werden müssen.
+* 🟢 Gut, weil für bestimmte Use Cases Echtzeit-Kommunikation für eine Reaktion auf Events vorhanden sein muss. Mit einem mixed-Ansatz kann beides abgedeckt werden.
+* 🔴 Schlecht, weil die Komplexität des Systems erhöht wird, da beide Paradigmen vom Team umgesetzt werden müssen.
 
 <!-- Dies ist ein optionales Element. Fühlen Sie sich frei, es zu entfernen. -->
 ## Validierung
 
-Die Architektur soll zeitnah im Projekt-Verlauffür einen exemplarischen Use Case umgesetzt werden, um deren Auswirkungen messen zu können und das Wissen im Team zu verteilen.
+Die Architektur soll zeitnah im Projekt-Verlauf für einen exemplarischen Use Case umgesetzt werden, um deren Auswirkungen messen zu können und das Wissen im Team zu verteilen.

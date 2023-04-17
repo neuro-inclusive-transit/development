@@ -45,7 +45,7 @@ Wir müssen uns für eine Architektur entscheiden, um unser neues System zu impl
 ## Ergebnis der Entscheidung
 
 Gewählte Option: "verteilte", weil \
-hierdurch System-Komponenten unabhängig von einander im Team entwickelt werden können.
+hierdurch System-Komponenten unabhängig voneinander im Team entwickelt werden können.
 
 ![System Architecture](./001-system-architecture.jpg)
 
@@ -60,15 +60,15 @@ hierdurch System-Komponenten unabhängig von einander im Team entwickelt werden 
 
 ### monolytisch
 
-* 🟢 Gut, denn Komplexität der allgemeinen Infrastuktur wird reduiziert
-* 🔴 Schlecht, weil die Komplexität des Codes kann steigen.
+* 🟢 Gut, denn Komplexität der allgemeinen Infrastuktur wird reduiziert.
+* 🔴 Schlecht, weil die Komplexität des Codes steigen kann.
 * 🔴 Schlecht, weil keine Last-Verteilung auf einzelne Komponenten stattfinden kann.
 
 
 ### verteilt
 
-* 🟢 Gut, denn System lässt sich besser verteilen, da einzelne System-Komponenten dubliziert werden können
-* 🟢 Gut, weil die einzelnen Komponenten sidn in sich geschlossener und können parallel entwickelt werden
-* 🟡 Neutral, weil Technologie-Entscheidungen können spezifisch auf den Anwendungsfall pro Microservice einzeln getroffen werden
-* 🔴 Schlecht, weil ein höherer Wartungsaufwand entsteht
-* 🔴 Schlecht, weil Redundanter Code kann entstehen
+* 🟢 Gut, denn System lässt sich besser verteilen, da einzelne System-Komponenten dubliziert werden können.
+* 🟢 Gut, weil die einzelnen Komponenten in sich geschlossener und parallel entwickelt werden können.
+* 🟡 Neutral, weil Technologie-Entscheidungen spezifisch auf den Anwendungsfall pro Microservice einzeln getroffen werden können.
+* 🔴 Schlecht, weil ein höherer Wartungsaufwand entsteht.
+* 🔴 Schlecht, weil Redundanter Code entstehen kann.
