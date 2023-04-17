@@ -91,8 +91,10 @@ Gewählte Option: "Deno.js", weil standardisierte Browser-APIs unterstützt und 
 
 <https://firebase.google.com/>
 
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
+* 🟢 Gut, weil detaillierte Dokumentation vorhanden ist.
+* 🟢 Gut, weil die Komplexität durch ein eifaches UI gering ist und keine Notwendigkeit von weiteren Programmiersprachen besteht.
 * 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
+* 🔴 Schlecht, weil es sich um eine Closed Source Platform handelt.
+* 🔴 Schlecht, weil Nutzer auf der Plattform angemeldet sind und somit ein Umzug auf eine andere Plattform nicht möglich ist.
+* 🔴 Schlecht, weil bei extra Funktionen teilweise hohe Kosten anfallen
+* 🔴 Schlecht, weil die Plattform Android fokussiert ist und wenig support für iOS liefert
