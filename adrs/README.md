@@ -4,6 +4,8 @@
 > – [adr.github.io](https://adr.github.io/)
 
 
+- [ADR-001a: Verteilter Systemaufbau](./001a-system-architecture-build.md)
+- [ADR-001b: Mixed-Synchrone-Asynchrone Kommunikation](./001b-system-architecture-communication.md)
 - [ADR-002: Deno.js als Backend-Technologie](./002-backend-services-technology.md)
 - [ADR-003: NativeScript als Grundlagen-Technologie frontend-seitig](003-mobile-app-ground-technology.md)
 - [ADR-004: Svelte als Framework für NativeScript](004-mobile-app-framework.md)
