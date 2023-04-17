@@ -26,85 +26,106 @@
 
 ## Kontext und Problemstellung
 
-{Beschreiben Sie den Kontext und die Problemstellung, z. B. in freier Form in zwei bis drei Sätzen oder in Form einer anschaulichen Geschichte. Möglicherweise möchten Sie das Problem in Form einer Frage formulieren und Links zu Kollaborationsforen oder Problemverwaltungssystemen hinzufügen}.
+Im Rahmen der Konzeption der mobilen App Anwendung wurde durch die Anforderungen der verschiedenen Stakeholder deutlich, dass die Anwendung, in voller Ausführung, auf iOS und Android Geräten voll funktionsfähig sein muss. Daher wird in diesem ADR festgelegt mit welchen Technologien diese Anforderungen am effektivsten umgesetzt werden können.
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
+
 ## Entscheidungstreiber
 
 * Ausführlichkeit der Dokumentation
-* 
-* ... <!-- Anzahl der Treiber kann variieren -->
+*	Performance der Technologie
+*	Skillset der Projektgruppe
+*	Erweiterbarkeit
+*	Verfügbarkeit von externen Tools, die die Entwicklung beschleunigen
+*	Maturity (Geschichte, Popularität, Community)
+
 
 ## In Betracht gezogene Optionen
 
-* {Titel der Option 1}
-* {Titel der Option 2}
-* {Titel der Option 3}
-* ... <!-- Anzahl der Optionen kann variieren -->
+* Capacitor
+* NativeScript
+* Flutter
 
 ## Ergebnis der Entscheidung
 
 Gewählte Option: "{Titel der Option 1}", weil
 {Begründung. z.B., einzige Option, die das K.O.-Kriterium Entscheidungstreiber erfüllt | die Kraft {Kraft} auflöst | ... | am besten ausfällt (siehe unten)}.
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ### Consequences
 
 * Gut, weil {positive Folge, z.B. Verbesserung einer oder mehrerer gewünschter Eigenschaften, ...}
 * Schlecht, weil {negative Konsequenz, z.B. Beeinträchtigung einer oder mehrerer gewünschter Eigenschaften, ...}
-* ... <!-- Anzahl der Konsequenzen kann variieren -->
 
-<!-- Dies ist ein optionales Element. Fühlen Sie sich frei, es zu entfernen. -->
-## Validierung
 
-{beschreibt, wie die Umsetzung/Einhaltung des ADR validiert wird. Z.B. durch eine Überprüfung oder einen ArchUnit-Test}
-
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Pro und Kontra der Optionen
 
 ### Kotlin für Android und/oder Swift für iOS
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+Kotlin ist eine plattformübergreifende, statisch typisierte Programmiersprache, die in Bytecode für die Java Virtual Machine übersetzt wird, aber auch in JavaScript-Quellcode oder in Maschinencode umgewandelt werden kann.
 
-* Gut, denn {Argument a}
-* Gut, weil {Argument b}
-<!-- Verwende "neutral", wenn das angegebene Argument weder für gut noch für schlecht gewichtet ist -->
-* Neutral, weil {Argument c}
-* Schlecht, weil {Argument d}
-* ... <!-- Anzahl der Vor- und Nachteile kann variieren -->
+Swift ist eine Programmiersprache von Apple Inc. für iOS, iPadOS, macOS, tvOS, watchOS, Linux, Windows
+
+
+*	Schlecht, weil die Nutzung den Arbeitsprozess für die Erstellung einer nativen App für Android und iOS verlangsamt.
+*	Schlecht, weil Swift am besten für die Entwicklung von iOS Anwendungen funktioniert und auch dafür ausgelegt wurde
+*	Schlecht, weil Kotlin nur performant bei der Erstellung von Android Anwendungen ist und dabei trotzdem bei vielen Stellen Java verwendet
 
 ### Flutter
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+Flutter ist ein Open-Source-UI-Entwicklungs-Kit von Google. Mit Flutter können Cross-Platform Apps in der Programmiersprache Dart entwickelt werden. Ein Flutter-Programm soll ohne größere Anpassungen auf folgenden Zielplattformen lauffähig sein: Webanwendung, Android, iOS, Windows, Linux, macOS und Google Fuchsia.
 
-* 🟢 Gut, denn {Argument a}
-* 🟢 Gut, weil {Argument b}
-<!-- Verwende "neutral", wenn das angegebene Argument weder für gut noch für schlecht gewichtet ist -->
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ... <!-- Anzahl der Vor- und Nachteile kann variieren -->
+[Flutter Dokumentation](https://dart.dev/guides)
+[Flutter Playground](https://dartpad.dev/?)
+
+
+*	🟢 Gut, denn Flutter hat einen App-Builder der eine einfache Erstellung von Prototypen ermöglicht
+*	🟢 Gut, weil durch third-party Integrationen auf Native Funktionen zugegriffen werden kann
+*	🟢Gut, weil Veränderungen direkt in der App erscheinen
+*	🟢Gut, weil Flutter Apps eine gute Performance haben
+*	🟢Gut, weil single code base und dadurch schnelle und effiziente Entwicklung
+*	🟡 Neutral, weil für das Erstellen der App Dart verwendet werden muss
+*	🔴 Schlecht, weil Flutter Apps nicht von Browsern supported werden
+*	🔴Schlecht, weil Flutter noch relativ neu ist und keine große Unterstützung durch die Community liefert.
+*	🔴Schlecht, weil viel selbst erlernt werden muss und dadurch der Zeitaufwand signifikant ansteigt
+*	🔴Schlecht, weil Flutter von Google erstellt wurde und daher in Einzelfällen Probleme mit iOS Systemen aufweist
+
 
 ### Nativescript
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+NativeScript ist ein Open-Source-Framework von Telerik by Progress zum Entwickeln von Apps auf iOS und Android. Als plattformunabhängige Programmiersprachen werden JavaScript und TypeScript eingesetzt.
 
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
+[NativeScript Dokumentation](https://docs.nativescript.org/)
+[NativeScript Playground](https://preview.nativescript.org/)
+[NativeScript Client-Side Storage](https://blog.nativescript.org/client-side-storage-in-nativescript-applications/)
+
+*	🟢Gut, weil es das Aussehen und das Gefühl einer nativen App verleiht
+*	🟢Gut, weil sehr große Community
+*	🟢Gut, weil immer kompatibel mit den neuesten OS Versionen ist
+*	🟢Gut, weil es mit JavaScript und CSS geschrieben wird
+*	🟢Gut, weil clientseitige Haltung von Daten möglich ist
+*	🟢Gut, weil asymmetrische Kryptographie durch ein Plugin möglich ist
+*	🔴Schlecht, weil HTML und DOM nicht unterstützt werden ( durch Plugin möglich)
+*	🔴Schlecht, weil für das DeBugging ein Emulator oder ein Gerät verwendet werden muss( Android Studio möglich)
 
 ### Capacitor
 
-{Beispiel / Beschreibung / Verweis auf weitere Informationen / ...}
+Capacitor ist eine native Open-Source-Framework zum Erstellen webnativer Apps. Es lassen sich plattformübergreifende iOS-, Android- und Progressive-Web-Apps mit JavaScript, HTML und CSS entwickeln.
 
-* 🟢 Gut, weil {Argument a}
-* 🟢 Gut, weil {Argument b}
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
+[Capacitor Dokumentation](https://capacitorjs.com/docs)
+
+•	🟢Gut, weil für die Erstellung der einer nativen App HTML, CSS und JavaScript verwendet wird
+•	🟢Gut, weil es gleichzeitig auch als PWA funktioniert
+•	🟢Gut, weil eine konstante API für ein 100% sharing des Codes sorgt
+•	🟢Gut weil, die Anwendung durch den WebView auf allen Geräten und Systemen gleich aussieht
+•	🟢Gut, weil auch Cordova plugins unterstützt werden
+•	🟢Gut, weil Capacitor mit jedem JavaScript Framework kompatibel ist
+•	🟢Gut weil, sehr lightweight
+•	🟢Gut weil, vollen Zugriff auf native SDK auf allen Plattformen 
+•	🟢Gut weil, vereinfachte App Store Distribution
+•	🔴Schlecht, weil Capacitor zum Speichern von Daten SQLite nutzt 
+•	🔴Schlecht, weil langsamer durch WebViews
+•	🔴Schlecht, weil ältere Geräte Probleme beim Laden mit Capacitor haben
+•	🔴Schlecht, weil nur eine kleine Menge an Daten ( wie z.B die User ID) lokal gespeichert werden kann. Außerdem werden Informationen von WebViews vom OS bei Platzmangel gelöscht.
+
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Weitere Informationen
