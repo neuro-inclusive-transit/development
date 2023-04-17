@@ -82,8 +82,4 @@ von natur aus MQTT unterstützt und vollständig Open-Source ist (Genauer s.u.)
 * 🟢 Gut, weil es simpel gehalten ist und für einen Use Case ausgelegt ist
 * 🔴 Schlecht, weil viele Funktionen nur gegen Bezahlung verfügbar sind
 
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-## Weitere Informationen
-
-
 [^mqtt]: <https://mqtt.org/>

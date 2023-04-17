@@ -167,17 +167,8 @@ export default {
 </script>
 ```
 
-
 * 🟢 Gut, weil große Community und viele Plugins vorhanden sind.
 * 🟢 Gut, weil von kleinen bis zu großen Projekten verwendet wird.
-* 🟡 Neutral, weil {Argument c}
-* 🔴 Schlecht, weil {Argument d}
-* ...
-
-<!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
-## Weitere Informationen
-
-{Vielleicht möchten Sie hier zusätzliche Beweise/Vertrauenswürdigkeit für das Entscheidungsergebnis angeben und/oder die Einigung des Teams auf die Entscheidung dokumentieren und/oder definieren, wann und wie diese Entscheidung umgesetzt werden sollte und ob/ wann sie erneut überprüft werden sollte und/oder wie die Entscheidung validiert wird. Hier können auch Links zu anderen Entscheidungen und Ressourcen erscheinen.}
 
 
 [^vargas-2020]: Larios Vargas, Enrique, Maurício Aniche, Christoph Treude et al. (2020). „Selecting Third-Party Libraries: The Practitioners’ Perspective“. In: ESEC/FSE 2020. Virtual Event, USA: Association for Computing Machinery, S. 245–256. ISBN: 9781450370431. DOI: [10.1145/3368089.3409711](https://doi.org/10.1145/3368089.3409711)
