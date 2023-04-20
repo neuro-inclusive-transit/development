@@ -15,7 +15,7 @@
 </tr>
 <tr>
 <th>consulted</th>
-<td></td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
+<td>Lining Bao</td><!-- list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication -->
 </tr>
 <tr>
 <th>informed</th>
@@ -26,7 +26,7 @@
 
 ## Kontext und Problemstellung
 
-Ein zentrales Element des Systems ist die Planung und Begleitung von ÖPNV-Reisen. Hierfür muss das System die Strecken, Verbindungen, Abfahrts- und Ankunftszeiten unterschiedlicher Verkehrsmittel abrufen können. Dabei müssen geplante Daten, als auch aktuelle Fahrplanänderungen angezeigt und verarbeitet werden. Hierzu ist eine API zum Abfragen der Fahrpläne nötig.
+Ein zentrales Element des Systems ist die Planung und Begleitung von ÖPNV-Reisen. Hierfür muss das System die Strecken, Verbindungen, Abfahrts- und Ankunftszeiten unterschiedlicher Verkehrsmittel abrufen können, um eventuelle Hindernisse während einer Reise feststellen und vermitteln zu können. Dabei müssen geplante Daten, als auch aktuelle Fahrplanänderungen angezeigt und verarbeitet werden. Hierzu ist eine API zum Abfragen der Fahrpläne nötig.
 
 <!-- Dies ist ein optionales Element. Sie können es gerne entfernen. -->
 ## Entscheidungstreiber
@@ -61,7 +61,7 @@ Für das Projekt sollten sowohl [DB Timetables](https://developers.deutschebahn.
 * 🟢 Gut, weil kostenfreie Nutzung, Betriebszeit 24/7
 * 🟢 Gut, weil sie geplante Daten zu einer bestimmten Station/Bahnhof liefert
 * 🟢 Gut, weil sie Daten Änderungen zu einer bestimmten Sation liefert (recent changes are updated every 30s) 
-🟢 Gute Doku
+* 🟢 Gute Doku
 <!-- Verwende "neutral", wenn das angegebene Argument weder für gut noch für schlecht gewichtet ist -->
 * 🟡 Neutral, da nur Zug- und Bahnhofsdaten geliefert werden
 
