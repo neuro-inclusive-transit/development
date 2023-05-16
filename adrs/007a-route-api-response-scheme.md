@@ -7,7 +7,7 @@
 </tr>
 <tr>
 <th>date</th>
-<td>2024-05-16</td><!-- YYYY-MM-DD, when the decision was last updated -->
+<td>2023-05-16</td><!-- YYYY-MM-DD, when the decision was last updated -->
 </tr>
 <tr>
 <th>deciders</th>
