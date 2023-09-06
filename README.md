@@ -22,16 +22,19 @@ im Sommersemester 2023
 
 ## Übersicht
 
-Während der Entwicklung des Minimal-Viable-Products (MVP) wurden Sprint-basiert die in [Projekt 1](https://neuro-inclusive-transit.github.io/vision-concept/) definierten Tickets abgearbeitet. Das [Projekt-Board](https://github.com/orgs/neuro-inclusive-transit/projects/1) dokumentiert hierbei den Arbeitsprozess.
-
-Alle Grundlegenden Architektur- und Technologie-Entscheidungen sind als [Architectural Decision Records (ADRs)](./adrs/README.md) dokumentiert.
-
 ### Meilenstein 1 (16.03.2023)
-
+Alle Grundlegenden Architektur- und Technologie-Entscheidungen sind als [Architectural Decision Records (ADRs)](./adrs/README.md) dokumentiert.
+[System Architecture]()
+[Backend Services Technology]()
+[Mobile App Technologies]()
+[Evaluation]()
 
 ### Meilenstein 2 (27.06.2023)
-
+[GUI / NUI Konzept]()
 
 ### Meilenstein 3 (22.08.2023)
 
 ## Vorgehen
+Während der Entwicklung des Minimal-Viable-Products (MVP) wurden Sprint-basiert die in [Projekt 1](https://neuro-inclusive-transit.github.io/vision-concept/) definierten Tickets abgearbeitet. Das [Github Projektmanagament-Tool](https://github.com/orgs/neuro-inclusive-transit/projects/1) dokumentiert hierbei den Arbeitsprozess inklusive der Meilensteine und der 2-wöchentlichen Sprints. Parallel wurde der MVP auf Bugs getestet, die im  [Projektmanagament-Tool](https://github.com/orgs/neuro-inclusive-transit/projects/1) als Issues vermerkt wurden.
+
+Des Weiteren wurden auf dem [Figjam Projekt-Board](https://www.figma.com/file/YXBqSf42uMzAjgqV4KJmEO/P2-%E2%80%93-Projekt-Board?type=whiteboard&node-id=0%3A1&t=XzQ7t1NdZIV06Bmp-1) die Meilenstein-Entscheidungen, weitere Artefakte sowie die Retrospektiven festgehalten, die vor den jeweiligen Meilensteinen durchgeführt wurden. 
