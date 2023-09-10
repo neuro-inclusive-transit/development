@@ -11,3 +11,7 @@
 - [ADR-004: Svelte als Framework für NativeScript](004-mobile-app-framework.md)
 - [ADR-005: MongoDB als Datenbank](./005-database.md)
 - [ADR-006: Mosquitto als Broker](006-broker.md)
+- [ADR-007: Here Maps als Routen/Maps-API](007-route-api.md)
+- [ADR-007a: Schema der Here Transit-API als Response Scheme](007a-route-api-response-scheme.md)
+- [ADR-008: DB Timetables und Open Data ÖPNV als Disturbance APIs](008-disturbance-api.md)
+- [ADR-009: Perspective Based Inspection als Evaluationsmethode](009-evaluation-method.md)
