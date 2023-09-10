@@ -22,17 +22,13 @@ im Sommersemester 2023
 
 ## Übersicht
 
-### Meilenstein 1 (16.03.2023)
+### ADRs
 Alle Grundlegenden Architektur- und Technologie-Entscheidungen sind als [Architectural Decision Records (ADRs)](./adrs/README.md) dokumentiert.
-[System Architecture]()
-[Backend Services Technology]()
-[Mobile App Technologies]()
-[Evaluation]()
 
-### Meilenstein 2 (27.06.2023)
-[GUI / NUI Konzept]()
+### Weitere Artefakte
+- [Evaluation des P1 Prototypen](https://github.com/neuro-inclusive-transit/development/blob/main/artefakte/evaluation.md)
+- [GUI / NUI Konzept](https://github.com/neuro-inclusive-transit/development/blob/main/artefakte/gui-nui-konzepte.md)
 
-### Meilenstein 3 (22.08.2023)
 
 ## Vorgehen
 Während der Entwicklung des Minimal-Viable-Products (MVP) wurden Sprint-basiert die in [Projekt 1](https://neuro-inclusive-transit.github.io/vision-concept/) definierten Tickets abgearbeitet. Das [Github Projektmanagament-Tool](https://github.com/orgs/neuro-inclusive-transit/projects/1) dokumentiert hierbei den Arbeitsprozess inklusive der Meilensteine und der 2-wöchentlichen Sprints. Parallel wurde der MVP auf Bugs getestet, die im  [Projektmanagament-Tool](https://github.com/orgs/neuro-inclusive-transit/projects/1) als Issues vermerkt wurden.
