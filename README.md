@@ -26,8 +26,8 @@ im Sommersemester 2023
 Alle Grundlegenden Architektur- und Technologie-Entscheidungen sind als [Architectural Decision Records (ADRs)](./adrs/README.md) dokumentiert.
 
 ### Weitere Artefakte
-- [Evaluation des P1 Prototypen](https://github.com/neuro-inclusive-transit/development/blob/main/artefakte/evaluation.md)
-- [GUI / NUI Konzept](https://github.com/neuro-inclusive-transit/development/blob/main/artefakte/gui-nui-konzepte.md)
+- [Evaluation des P1 Prototypen](./artefakte/evaluation.md)
+- [GUI / NUI Konzept](./artefakte/gui-nui-konzepte.md)
 
 
 ## Vorgehen
