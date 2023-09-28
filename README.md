@@ -28,7 +28,8 @@ Alle Grundlegenden Architektur- und Technologie-Entscheidungen sind als [Archite
 ### Weitere Artefakte
 - [Evaluation des P1 Prototypen](./artefakte/evaluation.md)
 - [GUI / NUI Konzept](./artefakte/gui-nui-konzepte.md)
-
+- [Poster für die Abschlusspräsentation](./artefakte/mmi-p2-neuro-inclusive-transit.pdf)
+- [Kurzvideo zur Darstellung des Nutzungskontextes (YouTube)](https://www.youtube.com/watch?v=stPYHTFElyI)
 
 ## Vorgehen
 Während der Entwicklung des Minimal-Viable-Products (MVP) wurden Sprint-basiert die in [Projekt 1](https://neuro-inclusive-transit.github.io/vision-concept/) definierten Tickets abgearbeitet. Das [Github Projektmanagament-Tool](https://github.com/orgs/neuro-inclusive-transit/projects/1) dokumentiert hierbei den Arbeitsprozess inklusive der Meilensteine und der 2-wöchentlichen Sprints. Parallel wurde der MVP auf Bugs getestet, die im  [Projektmanagament-Tool](https://github.com/orgs/neuro-inclusive-transit/projects/1) als Issues vermerkt wurden.
